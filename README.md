@@ -59,9 +59,9 @@
     discountFactor = (100 - discountPercentage) / 100
     applyDiscountToProduct (n, p, q) = (n, p * discountFactor, q)
     ```
-  Y la funcion main que nos ayudara a ejecutar el codigo: 
+    Y la funcion main que nos ayudara a ejecutar el codigo: 
 
-  ```Haskell
+     ```Haskell
     -- Función principal
     main :: IO ()
     main = do
@@ -83,7 +83,7 @@
     putStrLn $ "Inventario Final: " ++ show inventory5
     putStrLn $ "Total de productos en stock: " ++ show totalQty
     putStrLn $ "Valor total del inventario: " ++ show totalValue
-  ```
+    ```
 
         
   
